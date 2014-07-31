@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009/11/23 21:14:07.046.cbproj,C:\Documents and Settings\User\My Documents\RAD Studio\Projects\Project2.cbproj=C:\Documents and Settings\User\桌面\tcpser\Project2.cbproj</Transaction>
+    <Transaction>2009/11/23 21:14:13.281.cpp,C:\Documents and Settings\User\My Documents\RAD Studio\Projects\Unit2.cpp=C:\Documents and Settings\User\桌面\tcpser\Unit2.cpp</Transaction>
+    <Transaction>2009/11/23 21:14:13.281.h,C:\Documents and Settings\User\My Documents\RAD Studio\Projects\Unit2.h=C:\Documents and Settings\User\桌面\tcpser\Unit2.h</Transaction>
+    <Transaction>2009/11/23 21:14:13.281.dfm,C:\Documents and Settings\User\My Documents\RAD Studio\Projects\Unit2.dfm=C:\Documents and Settings\User\桌面\tcpser\Unit2.dfm</Transaction>
+    <Transaction>2009/12/08 14:08:19.576.cbproj,C:\Users\k3331863\Desktop\tcpser\Project2.cbproj=C:\Users\k3331863\Desktop\tcpser\TcpSERVER.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

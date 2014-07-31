@@ -1,0 +1,34 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{299d3a7b-d097-4a63-b6b5-606895ad96b9}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="Project3.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="Project3">
+    <MSBuild Projects="Project3.cbproj" Targets="" />
+  </Target>
+  <Target Name="Project3:Clean">
+    <MSBuild Projects="Project3.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="Project3:Make">
+    <MSBuild Projects="Project3.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="Project3" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="Project3:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="Project3:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>
